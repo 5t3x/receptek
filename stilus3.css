@@ -115,3 +115,7 @@ input, textarea {
 article {
     margin-top: 35px;
 }
+
+p {
+    margin-bottom: 0px;
+}
