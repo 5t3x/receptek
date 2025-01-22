@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(kepek/hatter2.jpg);
+}
+
+main {
+    background-color: rgb(247, 177, 127);
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: ;
+    grid-template-areas: ;
+}
+
+header {
+    background-color: rgb(148, 75, 46);
+    margin: 10px;
+    border-radius: 5px;
+}
+
+header h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+article img {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+    
+}
+
+nav {
+    background-color: rgb(148, 75, 46);
+    border-radius: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: brown;
+}
+
+footer {
+    background-color: rgb(148, 75, 46);
+    margin: 10px;
+    border-radius: 5px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}
+
+section .recept {
+    margin: 10px;
+}
