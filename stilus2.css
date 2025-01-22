@@ -7,7 +7,7 @@ body {
 }
 
 main {
-    background-color: rgb(247, 177, 127);
+    background-color: rgb(245, 203, 167);
     width: 80%;
     max-width: 1000px;
     margin: auto;
@@ -18,11 +18,12 @@ main {
                         "asl asc"
                         "sr asc"
                         "f f";
+    border-radius: 15px;
+    font-family: "Bookman Old Style", Georgia, serif;
 }
 
 header {
     grid-area: h;
-    background-color: rgb(148, 75, 46);
     margin: 10px;
     border-radius: 5px;
     height: 150px;
@@ -30,7 +31,6 @@ header {
 
 header h1 {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
@@ -43,30 +43,36 @@ header p {
 
 nav {
     grid-area: n;
-    background-color: rgb(148, 75, 46);
-    border-radius: 5px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 10px;
-    
+    background-color: rgb(229, 152, 102);
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
 }
 
 nav ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 15px 15px 0px 0px;
+    display: flex;
+    padding: 0px;
+    justify-content: center;
 }
 
 nav ul li {
     list-style-type: none;
+    margin-right: 30px;
+    padding: 5px;
+    font-weight: bold;
 }
 
 nav ul li a {
-    color: white;
     text-decoration: none;
+    color: white;
+
 }
 
-nav ul li a:hover {
-    color: brown;
+nav ul li:hover {
+    border-radius: 5px;
+    background-color: rgb(123, 125, 125);
+    transition: 0.5s ease;
+    box-shadow: 0px 0px 15px white;
 }
 
 article {
@@ -83,7 +89,7 @@ article img {
 }
 
 footer {
-    background-color: rgb(148, 75, 46);
+    background-color: rgb(229, 152, 102);
     margin: 10px;
     border-radius: 5px;
     grid-area: f;
@@ -133,8 +139,12 @@ fieldset {
     
 }
 
+section fieldset legend {
+    font-weight: bold;
+}
+
 button {
-    background-color: rgb(148, 75, 46);
+    background-color: rgb(229, 152, 102);
     color: #fff;
     padding: 10px;
     border: none;
