@@ -1,0 +1,128 @@
+html {
+    background-color: rgb(33, 44, 60);
+}
+
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    background-color: rgb(208, 211, 212);
+    border-radius: 15px;
+}
+
+header {
+    text-align: center;
+    height: 100px;
+}
+
+header h1 {
+    padding-top: 25px;
+}
+
+nav {
+    background-color: rgb(151, 154, 154);
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+nav ul {
+    border-radius: 15px 15px 0px 0px;
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+}
+
+article h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.5);
+    border: 1px solid white;
+    border-radius: 15px;
+    opacity: 5;
+    color: white;
+}
+
+article div {
+    margin: auto;
+    background-color: rgb(151, 154, 154);
+    height: 250px;
+    width: 350px;
+}
+
+article div ul {
+    padding: 0px;
+    margin: 17px;
+
+}
+
+article div ul li {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.fpiritos {
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-image: url(kepek/fokhagymaspiritos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hpizza {
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-image: url(kepek/hazipizza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.csmuffin {
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 15px;
+    background-image: url(kepek/csokismuffin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.zserbo {
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 15px;
+    background-image: url(kepek/zserbo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    text-align: center;    
+    background-color: rgb(151, 154, 154);
+    padding: 5px;
+    border-radius: 0px 0px 15px 15px;
+}
