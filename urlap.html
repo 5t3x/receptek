@@ -3,16 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Űrlap</title>
-    <link rel="stylesheet" href="stilus.css">
+    <title>Küldd be a saját recepted!</title>
+    <link rel="stylesheet" href="stilus3.css">
 </head>
 <body>
-    <main>
-        <header></header>
-        <nav></nav>
-        <aricle></aricle>
-        <aside></aside>
-        <footer></footer>
-    </main>
+    <header>
+        <h1>Küldd be a saját recepted</h1>
+        <nav>
+            <ul>
+                <li><a href="#bekuldes">Töltsd fel ide és ha tetszik nekünk, megemlítünk a cikkünkben!</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="bekuldes">
+        <h2>Itt beküldheted:</h2>
+        <form action="#" method="post">
+            <label for="name">Név:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="upload">A recepted:</label>
+            <textarea id="upload" name="upload" rows="4" required></textarea>
+
+            <button type="submit">Küldés</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Muffin Recept</p>
+    </footer>
 </body>
 </html>
