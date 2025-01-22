@@ -152,3 +152,9 @@ ul li {
         color: white;
     }
 }
+
+@media (max-width: 600px) {
+    h2 {
+        word-wrap: break-word;
+    }
+}
