@@ -11,24 +11,28 @@
         <h1>Küldd be a saját recepted</h1>
         <nav>
             <ul>
-                <li><a href="#bekuldes">Töltsd fel ide és ha tetszik nekünk, megemlítünk a cikkünkben!</a></li>
+                <li>Töltsd fel ide és ha tetszik nekünk, megemlítünk a cikkünkben!</li>
+                <p><a href="index.html">Receptgyűjtemény</a></p>
             </ul>
         </nav>
     </header>
     <article>
     <section id="bekuldes">
-        <h2>Itt beküldheted:</h2>
+        <h2>Itt beküldheted!</h2>
         <form action="#" method="post">
             <label for="name">Név:</label>
             <input type="text" id="name" name="name" required>
 
+            <label for="file">Kép:</label>
+            <input class="kep" type="file" name="file" required></input>
+            
             <label for="upload">A recepted:</label>
             <textarea id="upload" name="upload" rows="4" required></textarea>
 
             <button type="submit">Küldés</button>
         </form>
     </section>
-    </article>
+</article>
     <footer>
         <p>&copy; 2025 Muffin Recept</p>
     </footer>
