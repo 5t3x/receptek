@@ -3,14 +3,22 @@
 }
 
 body {
-    background-image: url(kepek/hatter2.jpg);
+    background-image: url("kepek/darkwoodwp.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
 }
 
 main {
+    margin-top: 20px;
+    margin-bottom: 20px;
     background-color: rgb(245, 203, 167);
-    width: 80%;
-    max-width: 1000px;
-    margin: auto;
+    border-radius: 15px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 20px white;
     display: grid;
     grid-template-areas: "h h"
                         "n n"
@@ -18,8 +26,7 @@ main {
                         "asl asc"
                         "sr asc"
                         "f f";
-    border-radius: 15px;
-    font-family: "Bookman Old Style", Georgia, serif;
+    font-family: "Gill Sans", sans-serif;
 }
 
 header {
@@ -42,37 +49,58 @@ header p {
 }
 
 nav {
-    grid-area: n;
     background-color: rgb(229, 152, 102);
     padding: 10px;
     border-radius: 15px 15px 0px 0px;
-}
-
-nav ul {
-    border-radius: 15px 15px 0px 0px;
     display: flex;
-    padding: 0px;
-    justify-content: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    grid-area: n;
 }
 
-nav ul li {
+nav ul.bal {
+    display: flex;
+    padding-left: 0px;
+    
+}
+
+nav ul.bal li {
+
+    height: 100%;
+}
+
+nav ul.bal li a  {
+    border-right: 2px solid white;
+    padding: 15px;
+}
+
+nav ul.jobb {
+    padding-left: 0px;
+}
+
+nav ul.jobb li a {
+    padding-right: 20px;
+    padding: 15px;
+    border-left: 2px solid white;
+}
+
+nav li {
     list-style-type: none;
-    margin-right: 30px;
-    padding: 5px;
-    font-weight: bold;
+
 }
 
-nav ul li a {
+nav li a {
     text-decoration: none;
     color: white;
-
+    font-size: 1.2em;
 }
 
-nav ul li:hover {
-    border-radius: 5px;
-    background-color: rgb(123, 125, 125);
-    transition: 0.5s ease;
-    box-shadow: 0px 0px 15px white;
+
+nav ul li a:hover {
+    color: rgba(211, 84, 0);
+    transition: 0.5s;
 }
 
 article {
@@ -89,15 +117,14 @@ article img {
 }
 
 footer {
+    text-align: center;    
     background-color: rgb(229, 152, 102);
-    margin: 10px;
-    border-radius: 5px;
-    grid-area: f;
-}
-
-footer p {
-    text-align: center;
+    padding: 5px;
+    border-radius: 0px 0px 15px 15px;
     color: white;
+    border-top: 2px solid white;
+    text-shadow: 3px 3px 5px black;
+    grid-area: f;
 }
 
 aside .lista {
@@ -127,6 +154,10 @@ section .recept {
     grid-area: sc;
 }
 
+legend {
+    text-align: center;
+}
+
 fieldset {
     padding: 10px;
     border-radius: 8px;
@@ -136,6 +167,7 @@ fieldset {
     max-width: 90%;
     display: block;
     margin: auto;
+    margin-bottom: 15px;
     
 }
 
@@ -151,6 +183,7 @@ button {
     border-radius: 5px;
     cursor: pointer;
     font-size: 1.1rem;
+    margin-top: 10px;
 }
 
 button:hover {
