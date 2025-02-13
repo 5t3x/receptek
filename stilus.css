@@ -1,15 +1,15 @@
 
 body {
     background-image: url("kepek/darkwoodwp.jpg");
-
     background-size: cover;
     height: 100vh;
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
 }
 
 
 main {
-    width: 90%;
-    max-width: 900px;
     margin: auto;
     background-color: rgb(245, 203, 167);
     border-radius: 15px;
@@ -33,6 +33,7 @@ nav {
     border-radius: 15px 15px 0px 0px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 15px;
 }
 
 nav ul.bal {
@@ -47,7 +48,7 @@ nav ul.bal li {
 }
 
 nav ul.bal li a  {
-    border-right: 1px solid white;
+    border-right: 2px solid white;
     padding: 15px;
 }
 
@@ -57,15 +58,25 @@ nav ul.jobb {
 
 nav ul.jobb li a {
     padding-right: 20px;
+    padding: 15px;
+    border-left: 2px solid white;
 }
 
 nav li {
     list-style-type: none;
+
 }
 
 nav li a {
     text-decoration: none;
     color: white;
+    font-size: 1.2em;
+}
+
+
+nav ul li a:hover {
+    color: rgba(211, 84, 0);
+    transition: 0.5s;
 }
 
 article {
@@ -139,18 +150,32 @@ article div h1 a {
     border: 1px solid white;
     border-radius: 15px;
     padding: 15px;
+    margin-bottom: 15px;
     background-image: url(kepek/csokismuffin.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
+}
+
+.csmuffin h1 a {
+    color: rgba(229, 152, 102);
+}
+
+
+.csmuffin h1 a:hover {
+    color: white;
+    transition: 0.5s;
 }
 
 .zserbo {
     border: 1px solid white;
     border-radius: 15px;
     padding: 15px;
+    margin-bottom: 15px;
     background-image: url(kepek/zserbo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    color: black;
 }
 
 footer {
