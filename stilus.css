@@ -6,15 +6,17 @@ body {
     width: 90%;
     max-width: 900px;
     margin: auto;
+
 }
 
 
 main {
-    margin: auto;
+    margin-top: 20px;
     background-color: rgb(245, 203, 167);
     border-radius: 15px;
     font-family: "Gill Sans", sans-serif;
-
+    border: 2px solid white;
+    box-shadow: 0px 0px 20px white;
 }
 
 header {
@@ -34,6 +36,8 @@ nav {
     display: flex;
     justify-content: space-between;
     margin-bottom: 15px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
 }
 
 nav ul.bal {
@@ -184,6 +188,8 @@ footer {
     padding: 5px;
     border-radius: 0px 0px 15px 15px;
     color: white;
+    border-top: 2px solid white;
+    text-shadow: 3px 3px 5px black;
 }
 
 @media (max-width: 900px) {
