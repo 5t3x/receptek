@@ -1,11 +1,10 @@
-html {
-    background-image: url(kepek/foodswallpaper.jpg);
-    background-repeat: no-repeat;
+
+body {
+    background-image: url("kepek/darkwoodwp.jpg");
+
     background-size: cover;
-    overflow-y: scroll;
-
+    height: 100vh;
 }
-
 
 
 main {
@@ -32,34 +31,41 @@ nav {
     background-color: rgb(229, 152, 102);
     padding: 10px;
     border-radius: 15px 15px 0px 0px;
-}
-
-nav ul {
-    border-radius: 15px 15px 0px 0px;
     display: flex;
-    padding: 0px;
-    justify-content: space-evenly;
-    margin: 0px;
+    justify-content: space-between;
 }
 
-nav ul li {
+nav ul.bal {
+    display: flex;
+    padding-left: 0px;
+    
+}
+
+nav ul.bal li {
+
+    height: 100%;
+}
+
+nav ul.bal li a  {
+    border-right: 1px solid white;
+    padding: 15px;
+}
+
+nav ul.jobb {
+    padding-left: 0px;
+}
+
+nav ul.jobb li a {
+    padding-right: 20px;
+}
+
+nav li {
     list-style-type: none;
-    padding: 10px;
-    font-weight: bold;
 }
 
-nav ul li a {
+nav li a {
     text-decoration: none;
     color: white;
-    
-
-}
-
-nav ul li:hover {
-    border-radius: 15px;
-    background-color: rgb(220, 118, 51);
-    transition: 0.5s ease;
-    box-shadow: 0px 0px 15px white;
 }
 
 article {
