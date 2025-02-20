@@ -2,6 +2,7 @@
 body {
     background-image: url("kepek/darkwoodwp.jpg");
     background-size: cover;
+    background-attachment: fixed;
     height: 100vh;
     width: 90%;
     max-width: 900px;
@@ -140,6 +141,11 @@ article div h1 a {
     background-size: cover;
 }
 
+.fpiritos h1 a:hover {
+    color: rgba(229, 152, 102);
+    transition: 0.5s;
+}
+
 .hpizza {
     border: 1px solid white;
     border-radius: 15px;
@@ -150,6 +156,11 @@ article div h1 a {
     background-size: cover;
 }
 
+.hpizza h1 a:hover {
+    color: rgba(229, 152, 102);
+    transition: 0.5s;
+}
+
 .csmuffin {
     border: 1px solid white;
     border-radius: 15px;
@@ -158,16 +169,16 @@ article div h1 a {
     background-image: url(kepek/csokismuffin.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
+    
 }
 
 .csmuffin h1 a {
-    color: rgba(229, 152, 102);
+    color: white;
 }
 
 
 .csmuffin h1 a:hover {
-    color: white;
+    color: rgba(229, 152, 102);
     transition: 0.5s;
 }
 
@@ -180,6 +191,11 @@ article div h1 a {
     background-repeat: no-repeat;
     background-size: cover;
     color: black;
+}
+
+.zserbo h1 a:hover {
+    color: rgba(229, 152, 102);
+    transition: 0.5s;
 }
 
 footer {
