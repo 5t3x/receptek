@@ -1,0 +1,92 @@
+body {
+  background-image: url("kepek/darkwoodwp.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  max-width: 1500px;
+  margin: auto;
+}
+
+main {
+  margin-top: 20px;
+  background-color: rgb(245, 203, 167);
+  border-radius: 15px;
+  font-family: "Gill Sans", sans-serif;
+  border: 2px solid white;
+  box-shadow: 0px 0px 20px white;
+}
+
+header {
+  text-align: center;
+  height: 100px;
+}
+
+header h1 {
+  padding-top: 25px;
+  color: white;
+}
+
+nav {
+  background-color: rgb(229, 152, 102);
+  padding: 10px;
+  border-radius: 15px 15px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+nav ul.bal {
+  display: flex;
+  padding-left: 0px;
+}
+
+nav ul.bal li {
+  height: 100%;
+}
+
+nav ul.bal li a {
+  border-right: 2px solid white;
+  padding: 15px;
+}
+
+nav ul.jobb {
+  padding-left: 0px;
+}
+
+nav ul.jobb li a {
+  padding-right: 20px;
+  padding: 15px;
+  border-left: 2px solid white;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+}
+
+nav ul li a:hover {
+  color: rgba(211, 84, 0);
+  transition: 0.5s;
+}
+
+
+
+
+
+footer {
+  text-align: center;
+  background-color: rgb(229, 152, 102);
+  padding: 5px;
+  border-radius: 0px 0px 15px 15px;
+  color: white;
+  border-top: 2px solid white;
+  text-shadow: 3px 3px 5px black;
+}
