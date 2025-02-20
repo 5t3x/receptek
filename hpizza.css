@@ -95,6 +95,7 @@ article {
   border-radius: 15px;
   border-top: 2px solid white;
   border-bottom: 2px solid white;
+  justify-content: center;
 }
 
 article div {
@@ -104,6 +105,7 @@ article div {
   margin: auto;
   background-color: rgb(0, 0, 0, 0.5);
   border-radius: 15px;
+  margin: 10px;
 }
 
 article div h3 {
@@ -112,13 +114,13 @@ article div h3 {
 
 article div.teszta {
   border: 2px solid white;
-  margin-right: 15px;
+
   padding: 15px;
 }
 
 article div.szosz {
   border: 2px solid white;
-  margin-left: 15px;
+
   padding: 15px;
 }
 
@@ -149,3 +151,20 @@ footer {
   border-top: 2px solid white;
   text-shadow: 3px 3px 5px black;
 }
+
+
+@media (max-width: 950px) {
+
+        article {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        article div {
+                width: 300px;
+                height: 250px;
+        }
+        
+    }
